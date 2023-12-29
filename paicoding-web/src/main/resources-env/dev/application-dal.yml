@@ -1,6 +1,6 @@
 spring:
   datasource: #单数据源
-    url: jdbc:mysql://localhost:3306/${database.name}?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://118.178.237.117:3306/${database.name}?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password:
   dynamic: # 动态数据源
@@ -29,7 +29,7 @@ spring:
         username: root
         password:
   redis:
-    host: localhost
+    host: 118.178.237.117
     port: 6379
     password:
 
